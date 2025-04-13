@@ -1,0 +1,16 @@
+{
+  "name": "panel-wp",
+  "version": "2.0.0",
+  "description": "Gerenciador Multi-site WordPress",
+  "author": "Eric Nunes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericnunes30/panelWP.git"
+  },
+  "scripts": {
+    "start:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  }
+}
